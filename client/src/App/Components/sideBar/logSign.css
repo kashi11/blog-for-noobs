@@ -1,0 +1,28 @@
+#afterlogin{
+  width: fit-content;
+  float: left;
+  color: #c5003c;
+  margin: 1.5em 0 0 1em;
+  font-size: 1.4rem;
+}
+#logout{
+  width: fit-content;
+  float: right;
+  margin: 2em 2em 0 0;
+}
+.LogSign{
+  float: left;
+  display: block;
+  margin-top: 0.7em;
+  margin-left: 1em;
+}
+.LogSignB{
+  float: left;
+  display: block;
+  margin-top: 1.3em;
+  margin-left: 1.8em;
+}
+button{
+  width: 7em;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}

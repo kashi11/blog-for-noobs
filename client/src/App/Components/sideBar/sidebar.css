@@ -1,0 +1,64 @@
+.sideBar {
+  padding: 5px;
+  height: 17vh;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #212121;
+  overflow: hidden;
+  color: white;
+}
+#link {
+  float: right;
+  margin: 2em 3em 0 0;
+}
+img {
+  margin-top: 1.2em;
+  margin-left: 3em;
+  float: left;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+  background-color: white;
+}
+ul {
+  margin-top: 1.2em;
+  float: left;
+}
+li {
+  list-style: none;
+  color: #c5003c;
+  font-size: 1rem;
+  font-style: oblique;
+  display: block;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.blog1 {
+  float: left;
+  margin-left: 20%;
+  width: fit-content;
+  font-size: 2rem;
+  font-style: italic;
+  color: #c5003c;
+}
+.blog2{
+  float: left;
+  margin-left: 10%;
+  margin-right: 5%;
+  width: fit-content;
+  font-size: 2rem;
+  font-style: italic;
+  color: #c5003c;
+}
